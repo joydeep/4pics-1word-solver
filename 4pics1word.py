@@ -10,7 +10,7 @@ charSet =""
 wordLen =0
 
 if (len (sys.argv) <2):
-    charSet = raw_input ("Please enter the character Set:")
+    charSet = input ("Please enter the character Set:")
     wordLen = len(charSet);
 else:
     charSet = sys.argv[1]
